@@ -1,2 +1,2 @@
-# PythonExercises
-🎯  This repository presents 20 Python exercises.
+# 🎯 PythonExercises
+This repository presents 20 Python exercises.
