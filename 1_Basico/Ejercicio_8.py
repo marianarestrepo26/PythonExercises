@@ -8,7 +8,7 @@ def counter(word, letter):
             count += 1
     return count
 
-word = input('Ingresa una palabra: ')
-letter = input('Ingresa una letra: ')
+word = input('Enter a word: ')
+letter = input('Enter a letter: ')
 result = counter(word, letter)
-print(f'La letra {letter} aparece {result} veces en la palabra {word}.')
+print(f'The letter {letter} appears {result} times in the word {word}.')

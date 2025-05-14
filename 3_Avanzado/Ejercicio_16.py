@@ -3,8 +3,9 @@
 
 def verify_password(password):
 
-    if not 6 <= len(password) <= 12:
-        return False
+    while not 6 <= len(password):
+            print('Error, your password must contain more than 6 characters')
+            password = input('Enter a password: ')
 
     numbers = 0
     capitals = 0
@@ -25,4 +26,4 @@ def verify_password(password):
 
     return numbers >= 1 and capitals !=0 and lower >= 1 and symbols >= 1
 
-print(verify_password(input('Ingresa una contraseña: ')))
+print(verify_password(input('Enter a password: ')))

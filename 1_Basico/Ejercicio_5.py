@@ -2,16 +2,16 @@
 #Crea una función que convierta grados Celsius a Fahrenheit.
 
 def check_temp():
-    while True:
-        temp = input("Ingresa un la temperatura en Celcius: ")
-
+    temp = input('Enter the temperature in Celcius: ')
+    while temp:
         try:
             temp = float(temp)
             return temp
         except:
-            print("Ingresaste un dato no válido.")
+            print('Error, you entered invalid data.')
+            temp = input('Enter the temperature in Celcius: ')
 
 temp_C = check_temp()
 temp_F = (temp_C * (9 / 5) + 32)
 
-print("La temperatura en Fahrenheit es: " + str(temp_F))
+print(f'The temperature in Fahrenheit is: {temp_F}' )

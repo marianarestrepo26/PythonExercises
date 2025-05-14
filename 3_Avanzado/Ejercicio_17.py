@@ -6,4 +6,5 @@ import random
 def throw_dice():
     return random.randint(1, 6)
 
-print(throw_dice())
+dice = throw_dice()
+print(f'Your number is {dice}')
