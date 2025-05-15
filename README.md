@@ -120,8 +120,20 @@ En esta función el programa retornará un número aleatorio entre 1 y 6 simulan
 ​🟪​  Aquí no se validará nada, debido a que el usuario lo único que debe hacer es ejecutar el programa para obtener un número.
 <br/><br/><br/>
 
-### 3. Suma de elementos únicos
-En esta función el usuario ingresará una contraseña y el programa retornará un falso o verdadero según si cumple o no los requisitos.
+### 3. Suma de elementos únicos 🔻
+En esta función se recibirá una lista y el programa sumará todos los elementos dentro de esta.
 
-​🟪​  Aquí se validará que la contraseña contenga letras mayúsculas y minúsculas, números y caracteres especiales, en caso de no tener alguna de estas retornará un False.
+​🟪​ Aquí no se validará nada, debido a que la lista ya está predeterminada.
+<br/><br/><br/>
+
+### 4. Generador de contraseñas 🔒​
+En esta función el usuario ingresará una longitud y el programa le retornará una contraseña de aquella longitud.
+
+​🟪​  La contraseña se generará con letras. números y caracteres especiales.
+<br/><br/><br/>
+
+### 5. Composición de funciones 🖇️​​
+En esta función el usuario ingresará su nombre y el programa validará este en otra función.
+
+​🟪​  Aquí se validará que el nombre esté compuesto solamente por letras.
 <br/><br/><br/>
