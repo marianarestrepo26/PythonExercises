@@ -113,3 +113,15 @@ En esta función el usuario ingresará una contraseña y el programa retornará 
 
 ​🟪​  Aquí se validará que la contraseña contenga letras mayúsculas y minúsculas, números y caracteres especiales, en caso de no tener alguna de estas retornará un False.
 <br/><br/><br/>
+
+### 2. Simular dado 🎲​
+En esta función el programa retornará un número aleatorio entre 1 y 6 simulando un dado.
+
+​🟪​  Aquí no se validará nada, debido a que el usuario lo único que debe hacer es ejecutar el programa para obtener un número.
+<br/><br/><br/>
+
+### 3. Suma de elementos únicos
+En esta función el usuario ingresará una contraseña y el programa retornará un falso o verdadero según si cumple o no los requisitos.
+
+​🟪​  Aquí se validará que la contraseña contenga letras mayúsculas y minúsculas, números y caracteres especiales, en caso de no tener alguna de estas retornará un False.
+<br/><br/><br/>
